@@ -2,6 +2,9 @@
 using ProductsAPI.DataAccess;
 using ProductsAPI.Logic.Contracts;
 using HTMLParser;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Threading;
 
 namespace ProductsAPI.Logic
 {

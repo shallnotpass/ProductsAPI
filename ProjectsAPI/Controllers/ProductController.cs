@@ -1,15 +1,17 @@
 ﻿using ProductsAPI.Logic.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+using System.Linq;
 
 namespace ProductsAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ProductctController : Controller
+    public class ProductController : Controller
     {
         private readonly IProductService productService;
 
-        public ProductctController(IProductService productService)
+        public ProductController(IProductService productService)
         {
             this.productService = productService;
         }

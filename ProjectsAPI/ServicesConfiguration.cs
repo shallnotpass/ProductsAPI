@@ -3,6 +3,9 @@ using ProductsAPI.Logic.Contracts;
 using ProductsAPI.Logic;
 using ProductsAPI.DataAccess;
 using HTMLParser;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.OpenApi.Models;
 
 namespace ProductsAPI
 {
